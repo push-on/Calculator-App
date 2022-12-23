@@ -1,10 +1,10 @@
 # Calculator-App 
 
-Technologies used
+## Technologies used
 - html
 - tailwind
 - javascript
 
-## netlify link
-[my-calculator](https://pushons-calculator.netlify.app/)
+## Netlify link
+👉 [my-calculator](https://pushons-calculator.netlify.app/)
 
