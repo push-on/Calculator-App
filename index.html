@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body class="flex justify-center items-center h-screen">
+  <div class="h-auto bg-slate-800 rounded-lg shadow-xl border-2 border-slate-700 ">
+
+    <div id="calculator" class="mx-2 my-3">
+      <!-- Display -->
+      <div id="result" class="w-52 flex flex-col mb-4 text-white bg-slate-700 rounded min-h-[120px] text-right space-y-2 py-2 px-4 ">
+        <div id="history" class="break-all text-slate-400">
+          <p id="history-value" class="">1000000</p>
+        </div>
+        <div id="output" class="break-all text-3xl">
+          <p id="output-value" class="">10000000000000000000</p>
+        </div>
+      </div>
+      <!-- Keyboard -->
+      <div id="keyboard" class="grid grid-cols-4 gap-1">
+        <button class="btn  operator" id="clear">AC</button>
+        <button class="btn operator" id="backspace">DEL</button>
+        <button class="btn operator" id="%">%</button>
+        <button class="btn operator" id="/">&#247;</button>
+        <button class="btn number" id="7">7</button>
+        <button class="btn number" id="8">8</button>
+        <button class="btn number" id="9">9</button>
+        <button class="btn operator" id="*">&times;</button>
+        <button class="btn number" id="4">4</button>
+        <button class="btn number" id="5">5</button>
+        <button class="btn number" id="6">6</button>
+        <button class="btn operator" id="-">-</button>
+        <button class="btn  number" id="1">1</button>
+        <button class="btn number" id="2">2</button>
+        <button class="btn number" id="3">3</button>
+        <button class="btn operator" id="+">+</button>
+        <button class="btn number" id="0">.</button>
+        <button class="btn number" id="0">0</button>
+        <button class="btn col-span-2 operator " id="=">=</button>
+      </div>
+      <!-- Bottom Decoration -->
+      <div class="flex justify-center mt-5">
+        <div class="w-20 h-1 bg-slate-700 rounded-3xl"></div>
+      </div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </div>
+</body>
+
+</html>
